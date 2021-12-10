@@ -1,0 +1,131 @@
+#content {
+    position: relative;
+    min-height: 530px;
+}
+
+.event_Hwrap {
+    width: 980px;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+}
+
+.emovie_list {
+    margin-left: -20px;
+}
+
+
+.emovie_list li {
+    position: relative;
+    float: left;
+    width: 230px;
+    margin: 0 0 30px 20px;
+    border: 1px solid #dedede;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.emovie_list .evt_period {
+    // padding: 10px;
+    border-top: 1px solid #dedede;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    color: #666;
+}
+
+
+.eventWrap .social_list {
+    top: 104px;
+}
+.social_list {
+    position: absolute;
+    right: 50%;
+    top: 100px;
+    margin-right: -446px;
+    text-align: right;
+    z-index: 10;
+}
+
+
+.social_list li {
+    display: inline-block;
+}
+
+
+.event_sinner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 50px 40px 30px;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.event_sinner .sub_tit02 {
+    padding-right: 150px;
+    line-height: 32px;
+}
+.sub_tit02 {
+    margin-bottom: 30px;
+    color: #231f20;
+    font-size: 24px;
+}
+
+
+.event_sinner #img {
+    min-height: 250px;
+}
+
+
+.event_sinner p.img {
+    text-align: center;
+}
+
+
+.event_sinner p.img img {
+    max-width: 100%;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+
+.event_release {
+    line-height: 20px;
+    padding: 30px 30px 20px;
+    border: 1px solid #dedede;
+    font-size: 14px;
+    color: #231f20;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.event_release p {
+    line-height: 20px;
+    // margin-bottom: 10px;
+}
+
+
+.event_release strong {
+    font-weight: bold;
+    line-height: 20px;
+}
+
+
+.eventWrap {
+    position: relative;
+    width: 100%;
+    padding: 50px 0;
+    background: #f9f6ec;
+}

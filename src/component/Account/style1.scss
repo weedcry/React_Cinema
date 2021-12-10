@@ -1,0 +1,688 @@
+
+.myCinema {
+    width: 100%;
+    padding: 50px 0;
+    background: #f9f6ec;
+}
+
+.myCinema .myInfo {
+    width: 980px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #777;
+}
+
+.order_tit02 {
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: #231f20;
+}
+
+.myCinema .myInfoTit {
+    overflow: hidden;
+    padding: 17px 30px 17px;
+    background: #282e34;
+}
+
+
+.myCinema .myInfoTit em {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.myCinema .myInfoTit em .userName, .myCinema .myInfoTit dd, .myCinema .myInfoTit dd a {
+    color: #cdc197;
+}
+
+
+.myCinema .myInfoTit dl {
+    float: right;
+}
+
+.myCinema .pointCont {
+    overflow: hidden;
+}
+
+.myCinema .pointCont > dl:first-child {
+    border-left: none;
+}
+.myCinema .pointCont .lpoint {
+    width: 490px;
+}
+.myCinema .pointCont > dl {
+    position: relative;
+    float: left;
+    height: 266px;
+    padding: 30px 30px 40px;
+    border-left: 1px solid #e5e5e5;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema .pointCont > dl > dt {
+    height: 25px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #231f20;
+    line-height: 25px;
+    position: relative;
+}
+
+.myCinema .pointCont .lpoint #aHistoryCinemaCoin {
+    color: #231f20;
+}
+
+
+.myCinema .pointCont .lpoint strong {
+    float: right;
+    font-size: 36px;
+    line-height: 23px;
+    letter-spacing: -1px;
+}
+.myCinema .pointCont strong {
+    font-size: 24px;
+    font-family: 'linlivertine';
+    color: #231f20;
+}
+
+
+.myCinema .pointCont .icon_c {
+    overflow: hidden;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background: url(../../assets/images/icon_c.png) no-repeat 0 0;
+    vertical-align: middle;
+    text-indent: -9999em;
+}
+
+
+
+.myCinema .pointCont .note {
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+
+.myCinema .pointCont .coupon {
+    width: 489px;
+}
+.myCinema .pointCont > dl {
+    position: relative;
+    float: left;
+    height: 266px;
+    padding: 30px 30px 40px;
+    border-left: 1px solid #e5e5e5;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema .pointCont .coupon dl dd {
+    line-height: 16px;
+}
+
+.myCinema .pointCont > dl dl dt {
+    clear: both;
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
+
+.myCinema .pointCont > dl dl dd {
+    float: right;
+}
+
+.myCinemaCont {
+    width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+.myCinemaCont .tab_st03 {
+    margin-bottom: 0;
+}
+.tab_st03 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #231f20;
+}
+
+
+.myCinemaCont .tab_st03 > li:first-child {
+    margin-left: 0;
+}
+.tab_st03 > li:first-child {
+    margin-left: 0;
+}
+.tab_st03 > li {
+    float: left;
+    margin-left: 1px;
+}
+
+.myCinemaCont .tab_st03 > li > p {
+    width: 139px;
+}
+.tab_st03 .active > p {
+    background: #231f20;
+    color: #cdc197;
+}
+.tab_st03 > li > p {
+    display: block;
+    width: 195px;
+    background: #efebdb;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px;
+    color: #231f20;
+    text-align: center;
+    padding: 16px 5px 15px;
+    line-height: 18px;
+}
+
+.tab_st03 > li > p:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.tab_st03 .active .tabDep2 {
+    display: block;
+}
+.tab_st03 .tabDep2 {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+    width: 100%;
+    background: #faf7ee;
+}
+
+.tab_st03 .tabDep2 li {
+    float: left;
+    padding: 0 0 0 22px;
+}
+
+
+.tab_st03 .tabDep2 li.on a {
+    display: block;
+    font-weight: bold;
+}
+.tab_st03 .tabDep2 li a {
+    display: inline-block;
+    font-size: 13px;
+    color: #231f20;
+    line-height: 50px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.tab_st03:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.myCinema_list {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+
+.myCinema_list .myCinema_box {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 30px;
+    border-top: 1px solid #c0c0c0;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema_list .thum {
+    float: left;
+    width: 108px;
+    height: 94px;
+    text-align: center;
+}
+
+.myCinema_list .thum img {
+    width: 65px;
+    height: 94px;
+}
+
+
+.myCinema_list .myCimema_cont {
+    float: left;
+    width: 702px;
+    margin-left: 40px;
+    line-height: 23px;
+}
+
+
+.myCinema_list .myCimema_cont dt {
+    clear: both;
+    float: left;
+    width: 165px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.myCinema_list .myCimema_cont dd {
+    float: left;
+    width: 537px;
+    font-size: 14px;
+    color: #231f20;
+    font-weight: bold;
+}
+
+.myCinema_list .myCimema_cont dt {
+    clear: both;
+    float: left;
+    width: 165px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.myCinema_list .myCimema_cont dd {
+    float: left;
+    width: 537px;
+    font-size: 14px;
+    color: #231f20;
+    font-weight: bold;
+}
+
+.myCinema_list .icon_off {
+    color: #231f20;
+}
+.myCinema_list .icon_on {
+    color: #cd190b;
+}
+.myCinema_list [class^=icon_] {
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+.myCinema_list .myCimema_cont dt {
+    clear: both;
+    float: left;
+    width: 165px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.myCinema_list .myCimema_cont dt {
+    clear: both;
+    float: left;
+    width: 165px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.myCinema_list .myCimema_cont dd {
+    float: left;
+    width: 537px;
+    font-size: 14px;
+    color: #231f20;
+    font-weight: bold;
+}
+
+
+.myCinema_list .btn_s_view {
+    position: absolute;
+    top: 58px;
+    right: 30px;
+    display: block;
+    padding-right: 22px;
+    // background: url(../../assets/images/payment_down.gif) no-repeat 100% 50%;
+    background: url(../../assets/images/icon_arrow.png) no-repeat 100% 50%;
+    color: #999;
+}
+
+.myCinema_list .btn_h_view {
+    position: absolute;
+    top: 58px;
+    right: 120px;
+    display: block;
+    padding-right: 22px;
+    background: url(../../assets/images/icon_canncel.svg) no-repeat 100% 50%;
+    color: #999;
+}
+
+
+.myCinema_answer.on {
+    display: block;
+}
+.myCinema_answer {
+    display: none;
+    position: relative;
+    margin: 0 30px 20px;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.myCinema_inner {
+    padding: 20px 30px 0;
+    width: 918px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema_answer .answerTit {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c0c0c0;
+    font-size: 18px;
+    color: #231f20;
+    /* font-weight: normal; */
+}
+
+
+.order_cancle {
+    overflow: hidden;
+    height: 44px;
+    padding: 15px 10px 13px 20px;
+    border-bottom: 1px solid #dedede;
+    color: #231f20;
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.sendingDetailReservation {
+    text-align: right;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+.sendingDetailReservation li, .sendingDetailCancel li {
+    display: inline-block;
+    padding: 0 8px 0px 6px;
+}
+
+
+.sendingDetailReservation .title, .sendingDetailCancel .title {
+    color: #666;
+}
+
+
+.sendingDetailReservation .desc, .sendingDetailCancel .desc {
+    color: #231f20;
+}
+
+
+.myCinema_order > li:first-child {
+    border: none;
+}
+.myCinema_order > li {
+    padding: 20px 0;
+    border-top: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema_order > li .thum {
+    margin-right: 30px;
+}
+.myCinema_list .thum {
+    float: left;
+    width: 108px;
+    height: 94px;
+    text-align: center;
+}
+
+
+.myCinema_list .thum img {
+    width: 65px;
+    height: 94px;
+}
+
+.myCinema_order .thum_cont {
+    float: left;
+    width: 720px;
+}
+
+
+.myCinema_order .thum_cont .answersTit {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.mycont_list li {
+    line-height: 20px;
+    font-size: 14px;
+    color: #231f20;
+}
+
+.clear_fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.myCinema_bill {
+    overflow: hidden;
+    width: 918px;
+    background: #efebdb;
+}
+
+.myCinema_bill .orderAmount {
+    float: left;
+    width: 284px;
+    padding: 30px 22px 30px 22px;
+}
+.myCinema_bill div {
+    position: relative;
+    min-height: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema_bill dt {
+    float: left;
+    color: #231f20;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+.myCinema_bill dd {
+    float: right;
+}
+
+.myCinema_bill .list {
+    float: none;
+    clear: both;
+    padding-top: 30px;
+    color: #666;
+    line-height: 20px;
+    font-size: 14px;
+}
+.myCinema_bill dd {
+    float: right;
+}
+
+.myCinema_bill .list span {
+    margin-left: 10px;
+}
+
+.myCinema_bill .discount {
+    float: left;
+    width: 330px;
+    padding: 30px 32px 30px 31px;
+    border-left: 1px solid #cfcab8;
+    border-right: 1px solid #dbdbcb;
+}
+.myCinema_bill div {
+    position: relative;
+    min-height: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema_bill .total {
+    float: left;
+    width: 304px;
+    padding: 30px 25px 30px 25px;
+}
+.myCinema_bill div {
+    position: relative;
+    min-height: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.myCinema_bill .icon {
+    right: auto;
+    top: 80px;
+    left: -12px;
+    width: 24px;
+    height: 24px;
+}
+
+.myCinema_bill .icon.minus {
+    background-image: url(../../assets/images/icon_discount3.png);
+}
+
+
+.myCinema_bill .icon.equal {
+    background-image: url(../../assets/images/icon_equal3.png);
+}
+
+
+.myCinema_bill .sum strong {
+    font-size: 24px;
+    font-family: 'linlivertine';
+}
+
+
+.myCinemaCont .tabCont.my_manage {
+    /* padding: 0 0 80px; */
+    padding: 0;
+}
+.myCinemaCont .tabCont {
+    padding: 80px 0 0;
+    color: #231f20;
+}
+
+
+.manage_step {
+    margin: 30px 0;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.manage_step li.first.on {
+    background: url(../../assets/images/icon_m_step01_on.png) no-repeat 32px 50%;
+}
+
+.manage_step li.second.on {
+    background: url(../../assets/images/icon_m_step02_on.png) no-repeat 32px 50%;
+}
+
+.manage_step li.first {
+    border-left: 1px solid #e5e5e5;
+    background: url(../../assets/images/icon_m_step01.png) no-repeat 32px 50%;
+}
+.manage_step li {
+    float: left;
+    // width: 245px;
+    width: 326px;
+    height: 78px;
+    line-height: 18px;
+    padding: 21px 0 22px;
+    border-right: 1px solid #dedede;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+.manage_step li.on a {
+    color: #231f20;
+}
+.manage_step li.first a {
+    padding-left: 70px;
+}
+.manage_step li a {
+    display: block;
+    color: #666;
+    font-weight: bold;
+    // background: url(../../assets/images/icon_arrow_go.png) no-repeat 200px 55%;
+    padding-right: 50px;
+}
+
+
+.manage_step li.second {
+    background: url(../../assets/images/icon_m_step02.png) no-repeat 32px 50%;
+}
+
+.manage_step li.second a {
+    padding-left: 70px;
+    line-height: 34px;
+}
+
+.manage_step li.last {
+    background: url(../../assets/images/icon_m_step04.png) no-repeat 32px 50%;
+}
+
+
+.manage_step li.last a {
+    padding-left: 70px;
+    line-height: 34px;
+    /* background-position: 164px 50%; */
+}
+
+.manage_step:after {
+    content: '';
+    display: block;
+    clear: both;
+}

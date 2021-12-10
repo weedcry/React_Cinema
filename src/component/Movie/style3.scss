@@ -1,0 +1,10 @@
+
+#ulMovieList {
+    li{
+        &:hover{
+            >.layer_hover {
+                display: block;
+           }
+        }
+    }
+  }

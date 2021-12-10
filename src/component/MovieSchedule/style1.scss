@@ -1,0 +1,321 @@
+.cont_ticket_Area .tab_st08 {
+    margin-top: 20px;
+}
+.cont_ticket_Area .tab_st08 {
+    margin-top: 30px;
+}
+.tab_st08 {
+    width: 100%;
+}
+
+.tab_st08 li {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.tab_st08 li:first-child a {
+    margin-left: 0;
+}
+.tab_st08 li .on {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border-top: 3px solid #231f20;
+    border-left: 1px solid #231f20;
+    border-right: 1px solid #231f20;
+    border-bottom: none !important;
+    font-weight: bold;
+    color: #35383d;
+    line-height: 48px;
+}
+.tab_st08 li a {
+    display: block;
+    margin-left: -1px;
+    border: 1px solid #c0c0c0;
+    border-bottom: 1px solid #231f20;
+    background: #efebdb;
+    text-align: center;
+    font-size: 16px;
+    color: #231f20;
+    line-height: 49px;
+}
+
+.tab_st08:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.tab_tCont.cinema_twrap {
+    padding: 50px 0;
+}
+.tab_tCont {
+    width: 980px;
+    margin: 0 auto;
+    padding: 50px 0 70px;
+}
+.cinema_twrap {
+    width: 980px;
+    margin: 0 auto;
+    padding: 39px 0;
+}
+
+.tab_tCont.cinema_twrap .sub_tit02 {
+    margin-bottom: 30px;
+}
+.tab_tCont .sub_tit02 {
+    margin-bottom: 0;
+}
+.sub_tit02 {
+    margin-bottom: 30px;
+    color: #231f20;
+    font-size: 24px;
+}
+
+.theater_zone {
+    position: relative;
+}
+
+.theater_zone li {
+    margin-bottom: 8px;
+}
+
+
+.cinema_twrap .zone_0 {
+    position: absolute;
+    top: 0;
+    // left: 0;
+    display: block;
+    width: 115px;
+    height: 40px;
+}
+
+
+.cinema_twrap .area_zone > a.on {
+    padding-left: 13px;
+    width: 115px;
+}
+.area_zone > a.on {
+    background: #231f20 url(../../assets/images/bullet03.gif) no-repeat 10px center;
+    color: #fff !important;
+    letter-spacing: -1px;
+}
+.cinema_twrap .area_zone > a {
+    display: table-cell;
+    word-break: break-all;
+    line-height: 15px;
+    white-space: normal;
+    width: 115px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+}
+
+.area_cont.on {
+    display: block;
+}
+.cinema_twrap .area_cont {
+    position: static;
+    padding-top: 48px;
+}
+.area_cont {
+    display: none;
+    position: absolute;
+    left: 180px;
+    top: 0;
+}
+
+
+.cinema_twrap .area_list {
+    width: 100%;
+}
+.area_list {
+    overflow: hidden;
+    width: 409px;
+}
+
+
+.cinema_twrap .area_list li {
+    margin: 0 7px 8px 0;
+}
+.area_list li {
+    float: left;
+    margin: 0 0 8px 5px;
+    display: table;
+}
+.theater_zone li {
+    margin-bottom: 8px;
+}
+
+.area_list li a.on {
+    display: table-cell;
+    word-break: break-all;
+    line-height: 15px;
+    white-space: normal;
+    border: 1px solid #999;
+    color: #231f20;
+    font-weight: bold;
+    background: #fff url(../../assets/images/bg_ckth.png) no-repeat 10px 50%;
+    padding: 0 10px 0 25px;
+}
+.cinema_twrap .area_list li a {
+    position: relative;
+    width: 115px;
+    /* line-height: 40px; */
+}
+.area_list li a {
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    width: 129px;
+    height: 40px;
+    border: 1px solid #efefef;
+    background: #efefef;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 16px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.theater_zone > li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.time_inner .sub_tit02 > em {
+    font-weight: bold;
+}
+
+.time_wrap {
+    width: 100%;
+    background: #f9f6ec;
+}
+
+.tab_st09 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tab_st09 li {
+    float: left;
+    width: 115px;
+    display: block;
+    height: 40px;
+    margin-left: 7px;
+}
+
+
+.tab_st09 li:first-child a {
+    margin-left: 0;
+}
+.tab_st09 li a {
+    display: table-cell;
+    overflow: hidden;
+    word-break: break-all;
+    width: 115px;
+    height: 40px;
+    padding: 0 3px;
+    background: #fff;
+    vertical-align: middle;
+    line-height: normal;
+    /* padding-left: 10px; */
+    text-align: center;
+    color: #666;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.tab_st09 li a.on {
+    background: #231f20;
+    color: #fff !important;
+}
+
+.m_List li.on .list_text {
+    background: #373434;
+}
+.m_List li .list_text {
+    padding: 0 10px;
+    border-top: 1px solid #e1e1e1;
+    line-height: 38px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.m_List li.on .list_text a {
+    color: #fff;
+}
+
+#limovieshowon {
+    border: 2px solid #373434;
+}
+
+.m_List li .list_text a {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    color: #231f20;
+    font-weight: bold;
+}
+
+#limovieshow{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    color: #231f20;
+    font-weight: bold;
+}
+
+.m_List li .list_text [class^=grade_] {
+    margin-right: 4px;
+}
+[class^=grade_] {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    text-indent: -99999em;
+}
+
+
+.filterFilm{
+    // position: absolute;
+    width: 170px;
+    height: 288px;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.filterFilmon {
+    border: 2px solid #373434;
+}
+
+
+.m_List li .img {
+    display: block;
+    width: 168px;
+    height: 246px;
+}

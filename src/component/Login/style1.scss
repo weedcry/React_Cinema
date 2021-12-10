@@ -1,0 +1,266 @@
+
+#container {
+    position: relative;
+    min-width: 980px;
+    border-top: 1px solid #e9e4d2;
+    min-height: 669px;
+}
+
+
+.login_wrap {
+    width: 100%;
+    background: #f9f6ec;
+}
+
+.login_wrap .login_inner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 55px 0 50px;
+}
+
+.login_tit {
+    margin-bottom: 22px;
+    font-size: 28px;
+    color: #231f20;
+    font-weight: normal;
+}
+
+
+.login_top {
+    min-height: 325px;
+    background: #fff;
+    padding: 30px 30px 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.forgot_top {
+    min-height: 100px;
+    background: #fff;
+    padding:10px 30px 30px 180px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.newpass_top {
+    min-height: 250px;
+    background: #fff;
+    padding:10px 30px 30px 180px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+[class|="tabdl_login"] {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    position: relative;
+}
+
+
+[class|="tabdl_login"] .tab_login_con.active {
+    display: block;
+}
+[class|="tabdl_login"] .tab_login_con {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+[class|="tabdl_login"] .tab_login_conSign.active {
+    display: block;
+}
+[class|="tabdl_login"] .tab_login_conSign
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.login_left {
+    float: left;
+    width: 450px;
+}
+
+.etc_list li {
+    padding-left: 10px;
+    background: url(../../assets/images/bullet.gif) no-repeat 0 7px;
+    color: #666;
+    line-height: 18px;
+}
+
+
+.login_left .login_box {
+    width: 448px;
+}
+.login_box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.login_box > span:first-child {
+    margin-bottom: 10px;
+}
+.login_box > span {
+    position: relative;
+    display: block;
+    text-align: left;
+}
+
+
+.login_box label {
+    display: inline-block;
+    width: 89px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #353535;
+}
+button, label, input[type=image], input[type="button"] {
+    cursor: pointer;
+}
+
+
+.login_left .login_box input[type=text], .login_left .login_box input[type=password] {
+    width: 253px;
+    height: 40px;
+}
+input[type=text], input[type=password] {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #dedede;
+    background: #f5f5f5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.login_left .login_find {
+    position: relative;
+    margin-left: 75px;
+}
+
+
+element.style {
+    cursor: pointer;
+}
+.login_find .btn_login {
+    border: none;
+    bottom: 53px;
+}
+
+.login_find .dangk {
+    bottom: 150px !important;
+}
+button, label, input[type=image], input[type="button"] {
+    cursor: pointer;
+}
+.login_find * {
+    vertical-align: middle;
+}
+.btn_login {
+    position: absolute;
+    right: 0;
+    width: 98px;
+    height: 90px;
+    padding-top: 38px;
+    text-align: center;
+    font-size: 14px;
+    color: #e5e1b0 !important;
+    background: #231f20 url(../../assets/images/icon_login.png) no-repeat 50% 19px;
+}
+
+
+.login_left .login_find span, .login_left .login_find a {
+    font-size: 14px;
+    color: #231f20;
+}
+.login_find > span {
+    display: inline-block;
+    margin-right: 12px;
+    padding-left: 17px;
+    background: url(../../assets/images/bg_line16.gif) no-repeat 0 50%;
+    color: #888;
+}
+.login_find * {
+    vertical-align: middle;
+}
+
+
+.login_left .login_find span, .login_left .login_find a {
+    font-size: 14px;
+    color: #231f20;
+}
+.login_find > span > a {
+    display: inline-block;
+    background: url(../../assets/images/ico_page_blank.gif) no-repeat right center;
+    padding-right: 20px;
+}
+
+
+.login_bottom {
+    min-height: 79px;
+    padding: 25px 0;
+    background: #efebdb;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.login_bottom .login_etxt {
+    font-size: 13px;
+    color: #666;
+    font-weight: bold;
+}
+.login_bottom * {
+    display: inline-block;
+}
+
+
+.login_bottom .btn_join {
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    margin-left: 6px;
+    font-size: 13px;
+    color: #231f20;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.login_bottom * {
+    display: inline-block;
+}
+
+// .login_right {
+    // float: right;
+    // width: 451px;
+// }
+
+.tab_login_con {
+    padding-left: 80px;
+}
+
+.tab_login_conSign {
+    padding-left: 80px;
+}

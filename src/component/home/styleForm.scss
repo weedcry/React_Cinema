@@ -1,0 +1,45 @@
+
+.urpForm {
+  .urpForm_group {
+    padding: 20px 0 40px;
+    border: 1px solid rgb(220,190,150);
+    border-width: 1px 0 0 0;
+    
+  }
+  legend {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+
+.urpInput,
+.urpTextarea{
+    height:36px;
+    color: #333;
+    padding: 0 10px;
+    background:#fff;
+    border: 1px solid;
+    border-color:#bbb;
+    width: 100%;
+}
+
+.urpInput:focus,
+.urpTextarea:focus,
+.urpSelect-multiple > select:focus{
+  border-color: #6BACED;
+}
+
+
+.urpLabel {
+font-size: 0.77778em;
+color: #4D4D4D;
+cursor: pointer;
+display: block;
+font-weight: normal;
+margin-bottom: 0.44444rem;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+
+.urpForm_stacked .urpInput {margin-bottom: 20px}
+

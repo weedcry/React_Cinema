@@ -1,0 +1,809 @@
+
+#contentTic {
+    padding-top: 25px;
+    position: relative;
+    min-height: 400px;
+}
+
+.cont_ticket {
+    width: 100%;
+    min-height: 100px;
+    background: #f9f6ec;
+}
+
+.cont_ticket_Area {
+    width: 980px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.ticket_inner {
+    width: 980px;
+    margin: 20px auto 0;
+}
+
+.ticket_step {
+    min-height: 300px;
+    background: #fff;
+    border-top: 2px solid #23333b;
+}
+
+
+.ticket_left {
+    float: left;
+    width: 629px;
+}
+
+.blind {
+    overflow: hidden;
+    position: absolute;
+    left: -9999px !important;
+    top: -9999px !important;
+}
+
+
+.theater_header {
+    overflow: hidden;
+    height: 59px;
+    padding: 0 25px 0 20px;
+    line-height: 59px;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.theater_header dt {
+    float: left;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    color: #231f20;
+}
+
+.theater_header dd {
+    float: right;
+    padding-left: 7px;
+    background: url(../../assets/images/bullet01.gif) no-repeat 0 50%;
+    font-size: 13px;
+    color: #777;
+}
+
+.ticket_My {
+    overflow: hidden;
+    height: 50px;
+    padding-left: 20px;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.ticket_My dt {
+    float: left;
+    color: #231f20;
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+.ticket_My dd {
+    overflow: hidden;
+    float: right;
+    line-height: 50px;
+}
+
+
+.ticket_My dd .txtCiadd {
+    float: left;
+    font-size: 13px;
+    color: #777;
+    padding-right: 20px;
+}
+
+
+.ticket_My dd .btnLogin {
+    float: left;
+    display: block;
+    min-width: 70px;
+    height: 28px;
+    margin: 10px 25px 0 0;
+    line-height: 28px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #999;
+    background: #fff;
+    color: #231f20;
+    padding: 0 10px;
+}
+
+
+.ticket_My dd .btnLogin span {
+    display: inline-block;
+    min-height: 13px;
+    padding-left: 16px;
+    background: url(../../assets/images/btn_loginTicket.png) no-repeat center left;
+}
+
+
+.ticket_My dd {
+    overflow: hidden;
+    float: right;
+    line-height: 50px;
+}
+
+
+.ticket_My dd .txtCiadd {
+    float: left;
+    font-size: 13px;
+    color: #777;
+    padding-right: 20px;
+}
+
+
+.ticket_My dd {
+    overflow: hidden;
+    float: right;
+    line-height: 50px;
+}
+
+
+.ticket_My dd .txtCiadd {
+    float: left;
+    font-size: 13px;
+    color: #777;
+    padding-right: 20px;
+}
+
+
+.favorite_list {
+    overflow: hidden;
+    float: left;
+    line-height: normal;
+    padding-top: 9px;
+}
+
+.ticket_My dd .btnCinema {
+    float: left;
+    display: block;
+    margin: 9px 32px 0 2px;
+    width: 30px;
+    height: 30px;
+    min-width: auto;
+    border-left: none;
+    background: url(../../assets/images/btn_prefer.gif) no-repeat;
+}
+
+
+.ticket_My dd .btnCinema > em {
+    height: auto;
+    padding-left: 0;
+    font-size: 0;
+    background: none;
+}
+address, caption, em {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.theater_cont {
+    position: relative;
+    padding: 20px 0 0 20px;
+}
+
+
+.theater_list {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+
+.theater_list li:first-child {
+    background: none;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+.theater_list li {
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    background: url(../../assets/images/bg_theater_line.gif) no-repeat left center;
+}
+
+
+.theater_list li a.on {
+    font-weight: bold;
+}
+.theater_list li a {
+    color: #231f20;
+}
+
+
+.theater_list li a.on span {
+    padding-left: 10px;
+    background: url(../../assets/images/bullet02.gif) no-repeat left center;
+}
+
+
+.tab_srcoll {
+    height: 415px;
+    padding-left: 10px;
+    overflow-y: auto;
+}
+
+
+.blind {
+    overflow: hidden;
+    position: absolute;
+    left: -9999px !important;
+    top: -9999px !important;
+}
+
+
+.tab_cont.on {
+    display: block;
+}
+.tab_cont {
+    display: none;
+    font-size: 12px;
+}
+
+
+.theater_zone {
+    position: relative;
+}
+
+
+.tab_cont {
+    display: none;
+    font-size: 12px;
+}
+
+
+.theater_zone {
+    position: relative;
+}
+
+
+.ticket_right {
+    float: right;
+    width: 350px;
+    border-left: 1px solid #c0c0c0;
+    box-sizing: border-box;
+}
+
+
+.theater_header {
+    overflow: hidden;
+    height: 59px;
+    padding: 0 25px 0 20px;
+    line-height: 59px;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.theater_header dt {
+    float: left;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    color: #231f20;
+}
+
+
+.theater_header dd {
+    float: right;
+    padding-left: 7px;
+    background: url(../../assets/images/bullet01.gif) no-repeat 0 50%;
+    font-size: 13px;
+    color: #777;
+}
+
+.movie_list li a.disabled {
+    color: #d1d1d1 !important;
+    background: #fff;
+    cursor: default;
+}
+
+.movie_cont {
+    height: 520px;
+    min-height: 520px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.tkMTab {
+    overflow: hidden;
+    padding-right: 10px;
+    text-align: right;
+    border-bottom: 1px solid #dedede;
+}
+
+
+.tkMTab li:first-child {
+    background: none;
+    padding-left: 0;
+}
+.tkMTab li {
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 2px;
+    background: url(../../assets/images/bg_tkMTab.gif) no-repeat left center;
+}
+
+
+.tkMTab li.on a {
+    font-weight: bold;
+}
+.tkMTab li a {
+    display: block;
+    padding: 0 10px 0 15px;
+    color: #231f20;
+    height: 50px;
+    line-height: 50px;
+}
+
+.scroll_bar {
+    clear: both;
+    height: 469px;
+    overflow-y: auto;
+}
+
+.ticket_step:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.selectMv {
+    width: 980px;
+    margin: 0 auto;
+    background: #dad2b4;
+}
+
+
+.selectMv_Area {
+    overflow: hidden;
+    padding: 20px 15px 0 ;
+    box-sizing: border-box;
+}
+
+
+.selectMv_Area .txtdate {
+    padding-left: 0px;
+}
+.selectMv_Area dl {
+    float: left;
+    overflow: hidden;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+
+.selectMv_Area dl dt {
+    float: left;
+    color: #231f20;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.selectMv_Area dl dd {
+    float: left;
+    color: #231f20;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+.selectMv_Area .txtCin {
+    width: 338px;
+}
+.selectMv_Area dl {
+    float: left;
+    overflow: hidden;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+
+.selectMv_Area .txtCin dt {
+    width: 70px;
+    text-align: right;
+}
+.selectMv_Area dl dt {
+    float: left;
+    color: #231f20;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.selectMv_Area .txtCin dd {
+    float: right;
+    width: 257px;
+}
+.selectMv_Area dl dd {
+    float: left;
+    color: #231f20;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+.selectMv_Area .listMv {
+    overflow: hidden;
+    font-size: 13px;
+}
+
+
+.selectMv_Area .txtName {
+    float: left;
+    width: 405px;
+}
+.selectMv_Area dl {
+    float: left;
+    overflow: hidden;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+
+.selectMv_Area .txtName dt {
+    width: 110px;
+    text-align: right;
+}
+.selectMv_Area dl dt {
+    float: left;
+    color: #231f20;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.selectMv_Area .txtName dd {
+    float: left;
+    width: 285px;
+}
+.selectMv_Area dl dd {
+    float: left;
+    color: #231f20;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+.selectMv_Area .listMv {
+    overflow: hidden;
+    font-size: 13px;
+}
+
+
+.theater_zone li {
+    margin-bottom: 8px;
+}
+
+
+.area_zone > a.on {
+    background: #231f20 url(../../assets/images/bullet03.gif) no-repeat 10px center;
+    color: #fff !important;
+    letter-spacing: -1px;
+}
+.area_zone > a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px !important;
+    padding: 0 10px 0 10px;
+    color: #666;
+    text-align: left;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.area_zone > h4 {
+    line-height: 40px !important;
+}
+
+
+address, caption, em {
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.area_cont.on {
+    display: block;
+}
+.area_cont {
+    display: none;
+    position: absolute;
+    left: 180px;
+    top: 0;
+}
+
+.area_list {
+    overflow: hidden;
+    width: 409px;
+}
+
+
+.area_list li {
+    float: left;
+    margin: 0 0 8px 5px;
+    display: table;
+}
+.theater_zone li {
+    margin-bottom: 8px;
+}
+
+.area_list li a.disabled {
+    color: #d1d1d1 !important;
+    background: #fafafa;
+    border: none;
+    cursor: default;
+    border: 1px solid #fafafa;
+}
+.area_list li a {
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    width: 129px;
+    height: 40px;
+    border: 1px solid #efefef;
+    background: #efefef;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 16px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.movie_list li {
+    padding: 4px 0 ;
+}
+
+
+.movie_list li a {
+    cursor: pointer;
+    display: block;
+    padding: 9px 10px 9px 25px;
+    border: 1px solid #fff;
+    color: #231f20;
+    font-size: 14px;
+    line-height: 22px;
+    word-break: break-all;
+}
+
+.movie_list li a [class^=grade_] {
+    float: left;
+}
+.movie_list [class^=grade_] {
+    margin: 0 6px 0 0;
+}
+[class^=grade_] {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    text-indent: -99999em;
+}
+
+
+.movie_list li a em {
+    float: left;
+    width: 265px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.movie_list li a:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.movie_list li a.on {
+    background: url(../../assets/images/bg_ckth.png) no-repeat 7px center;
+    border: 1px solid #999;
+}
+
+.movie_list li a.on em {
+    font-weight: bold;
+}
+
+.area_zone > a.on {
+    background: #231f20 url(../../assets/images/bullet03.gif) no-repeat 10px center;
+    color: #fff !important;
+    letter-spacing: -1px;
+}
+
+
+.area_list li a.on {
+    display: table-cell;
+    word-break: break-all;
+    line-height: 15px;
+    white-space: normal;
+    border: 1px solid #999;
+    color: #231f20;
+    font-weight: bold;
+    background: #fff url(../../assets/images/bg_ckth.png) no-repeat 10px 50%;
+    padding: 0 10px 0 25px;
+}
+
+
+.time_inner {
+    width: 980px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 50px 0 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.time_stop {
+    margin-bottom: 10px;
+}
+
+
+.time_inner .time_stop .sub_tit02 {
+    margin-bottom: 0;
+}
+.time_inner .sub_tit02 {
+    margin-bottom: 30px;
+    color: #231f20;
+    font-size: 24px;
+}
+.sub_tit02 {
+    margin-bottom: 30px;
+    color: #231f20;
+    font-size: 24px;
+}
+
+
+.time_inner .sub_tit02 .sub_etc {
+    margin-left: 8px;
+    font-size: 13px;
+    color: #777;
+    font-weight: normal;
+}
+
+
+.time_tit {
+    width: 980px;
+    padding: 20px;
+    background: #efebdb;
+    font-size: 20px;
+    color: #231f20;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: bold;
+}
+
+
+.time_tit * {
+    vertical-align: top;
+}
+
+
+.time_tit .btn_detail {
+    margin-left: 5px;
+}
+
+
+.time_aType .time_line {
+    padding: 0 20px 30px;
+}
+.time_line {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.time_aType .time_line dt {
+    padding: 30px 0 0;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #231f20;
+    background: none;
+}
+.time_line dt {
+    padding: 20px;
+    margin-top: 20px;
+    background: #efebdb;
+    font-size: 20px;
+    color: #231f20;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: bold;
+}
+
+
+.time_aType .time_line dd {
+    padding: 20px 0 0 5px;
+}
+.time_line dd {
+    padding: 15px 34px 10px 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.time_line dd .cineD1 {
+    font-size: 13px;
+}
+
+
+.time_line dd .cineD1 li:first-child {
+    background: none !important;
+    padding-left: 0;
+}
+// .time_line dd .cineD1 li {
+//     float: left;
+//     padding: 0 7px 0 8px;
+//     margin: 0;
+//     color: #666;
+//     background: url(/LCHS/Image/bg/bg_line08.gif) no-repeat left 1px;
+// }
+
+.time_line dd .cineD1:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.time_line dd .theater_time {
+    overflow: hidden;
+    width: 935px;
+}
+
+.selectMv_Area .listMv li {
+    position: relative;
+    word-break: break-all;
+    display: inline-block;
+    // float: left;
+    padding: 8px 35px 8px 10px;
+    margin: 0 5px 5px 0;
+    color: #231f20 !important;
+    border: 1px solid #bab093;
+    background: #e5e0cb;
+    text-align: left;
+    line-height: 14px;
+}
+
+
+.selectMv_Area .listMv li > a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -8px;
+    font-size: 0;
+    line-height: 0;
+}
